@@ -1,0 +1,354 @@
+
+
+body {
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif ;
+}
+
+:where(h1, h2, h3, h4, h5, h6, p) {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main-container {
+    min-width: 318px; 
+    padding: 5%;
+    background-color: lightgray;
+}
+
+#social, #manage, #maintain, #schedule, #percent, 
+#grow, #create, #write {
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#social, #grow {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(256, 67%, 59%);
+}
+
+#manage, #percent {
+    background-color: hsl(0, 0%, 100%);
+}
+
+#maintain, #write {
+    background-color: hsl(39, 100%, 71%);
+}
+
+#schedule, #create, #write {
+    padding-top: 20px;
+}
+
+#manage, #maintain, #percent, #create, #write, 
+#schedule {
+    color: hsl(0, 0%, 7%);  
+}
+
+#main-container, #social, #manage, #maintain-image, #maintain, #schedule, 
+#percent, #grow, #create, #write, #rating, #social-content, #schedule-content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: content;
+}
+
+#rating, #manage, #maintain, #schedule, #grow, #percent, #create, #write {
+font-size: 30px;
+line-height: 40px;
+}
+
+#rating, #schedule-content2, #percent-content2 {
+    font-weight: 400;
+    font-size: 18px;
+    }
+
+#rating, #manage-content {
+    margin-top: 20px;
+}
+
+#manage-content, #maintain-content, #grow-content {
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+#schedule-content1, #percent-content1, #create-content,
+#write-content {
+    font-weight: 500;
+}
+
+#create-content, #write-content, #percent-content1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#percent-content1, #percent-content2, #percent-image, 
+#write-content, #write-image {
+    margin-left: 20px;
+}
+
+#manage-content, #maintain-content, #write-content {
+    line-height: 25px;
+}
+
+#social {
+    padding: 20px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+#social-content {
+    align-items: start;
+    font-weight: 500;
+}
+
+#rating {
+    line-height: 30px;
+}
+
+#five-stars {
+    width: 200px;
+}
+
+#yellow {
+    color: hsl(39, 100%, 71%);
+}
+
+.italics {
+    font-style: italic;
+}
+
+#manage {
+    align-items: start;
+}
+
+#accounts {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#social-media {
+    width: 300px;
+}
+
+#maintain {
+    align-items: start;
+}
+
+#maintain-content {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#maintain-image {
+    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#calender {
+    width: 225px;
+    align-self: end;
+}
+
+#schedule {
+    background-color: hsl(254, 88%, 90%);
+    padding-bottom: 40px;
+}
+
+#schedule-content1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+#post-time {
+    width: 300px;
+}
+
+#schedule-content2 {
+    line-height: 18px;
+    margin-top: 15px;
+}
+
+#optimize {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#grow {
+    line-height: 20px;
+    text-align: center;
+}
+
+#grow-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#growth {
+    width: 200px;
+}
+
+#grow-content {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#percent {
+    align-items: start;
+    font-size: 18px;
+    line-height: 0px;
+}
+
+#percent-content1 {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#percent-content2 {
+    margin-bottom: 30px;
+}
+
+#percent-image {
+    margin-bottom: 20px;
+}
+
+#profile-pics {
+    width: 200px;
+}
+
+#create {
+    background-color:  hsl(31, 66%, 93%);
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+#create-content {
+    line-height: 25px;
+}
+
+#create-image {
+  align-self: start;
+  
+} 
+
+#purple {
+    color: hsl(256, 67%, 59%);
+}
+
+#create-post {
+    width: 200px;
+}
+
+#write-image {
+    align-self: start;
+    margin-bottom: 20px;
+}
+
+#ai {
+    width: 200px;
+}
+
+
+
+@media (min-width: 560px) {
+
+#card {
+    margin: 0 auto;
+    max-width: 100% vw;
+}
+#main-container {
+    flex-direction: row-reverse;
+    flex-basis: content;
+    overflow: scroll;
+}
+
+#main-container-left {
+    display: flex;
+    margin-right: 20px;
+}
+
+#container-1, #container-3, #container-4 {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+} 
+
+#container-1 {
+    flex-direction: row;
+    /* background-color: green; */
+}
+
+#left1, #right1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#left1 {
+    margin-right: 20px;
+}
+
+#schedule {
+    flex-basis: 100%;
+}
+
+#social {
+    flex-basis: 100%;
+}
+
+#bottom-half-left {
+    display: flex;
+    flex-direction: row;
+    align-self: end;
+    flex-basis: 20%;
+}
+
+#manage {
+    margin-right: 20px;
+}
+
+#container-3 { 
+    /* background-color: yellow; */
+    flex-direction: row-reverse; 
+}
+
+#grow {
+    flex-direction: row;
+    padding-left: 15px;
+    margin-left: 20px ;
+}
+
+#percent-content1 {
+    margin-bottom: 40px;
+}
+
+#container-4 {  
+   /* background-color: purple; */
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+#create {
+    padding-top: 29.40%;
+    padding-bottom: 16.5%;
+}
+
+#write {
+    padding-top: 14.625%;
+}
+
+#write-content {
+    margin-bottom: 50px;
+}
+
+
+
+
+}
